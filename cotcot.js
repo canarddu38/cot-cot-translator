@@ -25,6 +25,16 @@ const dico = {
 'x': "cooot cot cot cooot",
 'y': "cooot cot cooot cooot",
 'z': "cooot cooot cot cot",
+'0': "cooot cooot cooot cooot cooot",
+'1': "cot  cooot cooot cooot cooot",
+'2': "cot cot cooot cooot cooot",
+'3': "cot cot cot cooot cooot",
+'4': "cot cot cot cot cooot",
+'5': "cot cot cot cot cot",
+'6': "cooot cot cot cot cot",
+'7': "cooot cooot cot cot cot",
+'8': "cooot cooot cooot cot cot",
+'9': "cooot cooot cooot cooot cot",
 " ": "cotcotcotcot"};
 
 function fr_to_cot(text) {
@@ -59,8 +69,4 @@ function cot_to_fr(text) {
                 }
                 return outp;
 }
-
-// console.log("Français => cot cot");
-// phrase = "Coucou maman";
-// console.log(fr_to_cot(phrase));
     
